@@ -1,0 +1,18 @@
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.pagination button{
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 5px;
+}
+.pagination button.active{
+    background-color: black;
+    color: white;
+}
